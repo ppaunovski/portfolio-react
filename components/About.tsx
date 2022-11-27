@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Almanah_picture from "../img/алманах.jpg";
 
 type Props = {};
 
@@ -12,8 +13,8 @@ function About({}: Props) {
       <div className="flex flex-col text-center md:text-left md:flex-row max-w-5xl px-10 justify-evenly mx-auto items-center">
         <motion.img
           className=" hidden sm:block mt-20 mb-6 flex-shrink-0 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 lg:w-[300px] lg:h-[450px]"
-          //src="https://scontent.fskp4-2.fna.fbcdn.net/v/t1.6435-9/86488521_3831297816888306_4805186462754537472_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3iSK25-D__sAX8cPc4b&_nc_ht=scontent.fskp4-2.fna&oh=00_AT8beZ3_QVFwzHIYvAlVD8WTQmSQeAdN_kd5iLhLRY-udw&oe=6362BD0C"
-          src="https://firebasestorage.googleapis.com/v0/b/social-app-6644b.appspot.com/o/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5%2F%D0%B0%D0%BB%D0%BC%D0%B0%D0%BD%D0%B0%D1%85.jpgf42c53e2-606e-4b78-a325-02a5101d3362?alt=media&token=f2734198-4e24-4dc0-82d3-567f0453cd0c"
+          src={Almanah_picture.src}
+          alt="Almahan img"
           initial={{
             x: -200,
             opacity: 0,

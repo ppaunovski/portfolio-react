@@ -15,7 +15,7 @@ function Project({ title, link, images, description }: Props) {
   return (
     <div className="h-full p-6 w-[80vw] sm:w-[70vw] md:w-[50vw] lg:w-[500px] snap-center flex flex-col justify-center items-center">
       <div className="mb-2">
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noreferrer">
           <img
             src={images.src}
             alt="Preview of project"
