@@ -1,5 +1,6 @@
 import { StaticImageData } from "next/image";
 import React from "react";
+import Image from "next/image";
 
 type Props = {
   title: string;
@@ -17,6 +18,7 @@ function Project({ title, link, images, description }: Props) {
         <a href={link} target="_blank">
           <img
             src={images.src}
+            alt="Preview of project"
             className="w-full h-48 sm:h-60 md:h-64 lg:h-72"
           />
         </a>

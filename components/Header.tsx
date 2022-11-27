@@ -65,10 +65,7 @@ function Header({}: Props) {
           bgColor="transparent"
         />
 
-        <a
-          href="mailto:paunovskipavel@gmail.com?subject=Mail from Portfolio Page"
-          target="_blank"
-        >
+        <a href="mailto:paunovskipavel@gmail.com?subject=Mail from Portfolio Page">
           <p className="hidden sm:inline-flex uppercase text-sm text-gray-500 tracking-widest">
             Get In Touch
           </p>
