@@ -30,21 +30,21 @@ function About({}: Props) {
 
         <div className="mt-24 sm:mt-0 md:mt-10 space-y-2 sm:space-y-4 md:space-y-8 px-0 md:px-10">
           <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold">
-            Here's a{" "}
+            Here&apos;s a{" "}
             <span className="underline decoration-[#39FF14]/40">little</span>{" "}
             background
           </h4>
           <p className="text-sm ">
-            My name is Pavel, and I'm a Computer Science Student at FINKI based
-            in Skopje, Macedonia. In my spare time I like to improve my skills
-            in coding, so I experiment with React, JavaScript and Tailwind
-            trying to make responsive websites or webapps.
+            My name is Pavel, and I&apos;m a Computer Science Student at FINKI
+            based in Skopje, Macedonia. In my spare time I like to improve my
+            skills in coding, so I experiment with React, JavaScript and
+            Tailwind trying to make responsive websites or webapps.
             <br></br>
             <br></br>
             In my very few years of coding I have worked with C and C++ where I
-            learnt about the fundamentals of coding. Right now I'm getting
-            myself familiar with Java and it's functional programming paradigm,
-            as well as broadening my knowlenge about the OOP paradigm.
+            learnt about the fundamentals of coding. Right now I&apos;m getting
+            myself familiar with Java and it&apos;s functional programming
+            paradigm, as well as broadening my knowlenge about the OOP paradigm.
           </p>
         </div>
       </div>
