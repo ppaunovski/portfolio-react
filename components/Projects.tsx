@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import Students_pal_preview from "../img/Students_pal_preview.png";
-import Hulu_clone_preview from "../img/Hulu_clone_preview.png";
+import Hulu_clone_preview from "../img/hulu_clone_preview.png";
 import Coming_soon_preview from "../img/Coming_soon_preview.png";
 import { motion } from "framer-motion";
 
