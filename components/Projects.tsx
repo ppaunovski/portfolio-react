@@ -16,13 +16,15 @@ function Projects({}: Props) {
       <h4 className="absolute top-32 text-xs text-gray-500">
         Click the image to preview live version
       </h4>
-      <div className="h-screen p-6 mt-32 max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] lg:max-w-[500px] overflow-x-scroll overflow-y-hidden flex snap-x snap-mandatory">
+
+      <div className="h-screen relative p-6 mt-32 max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] lg:max-w-[500px] overflow-x-scroll overflow-y-hidden flex snap-x snap-mandatory">
         <Project
           title="FINKI Student's Pal"
           images={Students_pal_preview}
           description="Social media like project, made with React as a front-end framework, Firebase as a database, Tailwind for beauty and many more. Started as a faculty project and still isn't finished."
           link="https://ppaunovski.github.io/students-pal"
         />
+
         <Project
           title="Hulu clone"
           images={Hulu_clone_preview}
