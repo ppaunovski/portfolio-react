@@ -16,35 +16,39 @@ function Skills({}: Props) {
       <div className="grid grid-cols-4 gap-5">
         <Skill
           image="https://cdn-icons-png.flaticon.com/512/174/174854.png"
-          percent={90}
+          percent={"90%"}
         />
         <Skill
           image="https://cdn-icons-png.flaticon.com/512/732/732190.png"
-          percent={70}
+          percent={"70%"}
         />
         <Skill
           image="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
-          percent={70}
+          percent={"70%"}
         />
         <Skill
           image="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
-          percent={70}
+          percent={"70%"}
         />
         <Skill
           image="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
-          percent={50}
+          percent={"50%"}
         />
         <Skill
           image="https://cdn-icons-png.flaticon.com/512/732/732222.png"
-          percent={80}
+          percent={"80%"}
         />
         <Skill
           image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
-          percent={80}
+          percent={"80%"}
         />
         <Skill
           image="https://cdn-icons-png.flaticon.com/512/1199/1199124.png"
-          percent={80}
+          percent={"80%"}
+        />
+        <Skill
+          image="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+          percent={"B2/C1"}
         />
       </div>
     </motion.div>
