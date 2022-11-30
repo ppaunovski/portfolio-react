@@ -7,7 +7,7 @@ type Props = {};
 function Skills({}: Props) {
   return (
     <motion.div className="relative h-screen flex justify-center items-center flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen xl:space-y-0 mx-auto">
-      <h3 className="absolute top-24 uppercase text-gray-500 tracking-[20px] text-2xl">
+      <h3 className="absolute ml-[20px] top-24 uppercase text-gray-500 tracking-[20px] text-2xl">
         Skills
       </h3>
       {/* <h4 className="absolute top-36 uppercase tracking-[3px] text-gray-600 text-sm">

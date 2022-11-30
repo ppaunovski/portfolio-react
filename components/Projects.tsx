@@ -10,9 +10,12 @@ type Props = {};
 function Projects({}: Props) {
   return (
     <div className="h-screen relative flex flex-col justify-center items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-2xl text-gray-500">
+      <h3 className="absolute ml-[20px] top-24 uppercase tracking-[20px] text-2xl text-gray-500">
         Projects
       </h3>
+      <h4 className="absolute top-32 text-xs text-gray-500">
+        Click the image to preview live version
+      </h4>
       <div className="h-screen p-6 mt-32 max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] lg:max-w-[500px] overflow-x-scroll overflow-y-hidden flex snap-x snap-mandatory">
         <Project
           title="FINKI Student's Pal"

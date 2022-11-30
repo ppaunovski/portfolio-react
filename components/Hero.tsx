@@ -25,7 +25,7 @@ function Hero({}: Props) {
           src={Almanah_picture.src}
         />
         <div className="z-20">
-          <h2 className="text-sm uppercase text-gray-500 tracking-[5px] pb-2">
+          <h2 className="text-sm ml-[5px] uppercase text-gray-500 tracking-[5px] pb-2">
             Computer Science Student
           </h2>
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold px-10">
